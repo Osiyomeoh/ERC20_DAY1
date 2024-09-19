@@ -90,4 +90,4 @@ This project is licensed under the [MIT License](LICENSE).
 - [OpenZeppelin](https://openzeppelin.com/) for ERC20 implementation
 - [Hardhat](https://hardhat.org/) for Ethereum development environment
 - [Sepolia Testnet](https://sepolia.dev/)
-- [30 Day Smart Contract Solidity Challenge](https://example.com/challenge-link)
+- [30 Day Smart Contract Solidity Challenge]
