@@ -35,8 +35,8 @@ This project demonstrates the implementation of an ERC20 token using Solidity, a
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/30-day-solidity-challenge.git
-   cd 30-day-solidity-challenge/day-1
+   git clone https://github.com/Osiyomeoh/ERC20_DAY1.git
+   cd ERC20_DAY1
    ```
 
 2. Install dependencies:
