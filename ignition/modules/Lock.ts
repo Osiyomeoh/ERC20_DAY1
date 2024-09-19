@@ -1,17 +1,15 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
-const JAN_1ST_2030 = 1893456000;
-const ONE_GWEI: bigint = 1_000_000_000n;
 
-const LockModule = buildModule("LockModule", (m) => {
-  const unlockTime = m.getParameter("unlockTime", JAN_1ST_2030);
-  const lockedAmount = m.getParameter("lockedAmount", ONE_GWEI);
+const MyERC20Module = buildModule("MyERC20Module", (m) => {
 
-  const lock = m.contract("Lock", [unlockTime], {
-    value: lockedAmount,
+
+  const myERC20 = m.contract("MyERC20", [], {
+   
   });
 
-  return { lock };
+  return { myERC20 };
 });
 
-export default LockModule;
+export default MyERC20Module;
+//MyERC20Module#MyERC20 - 0x8F21657a7eA75383bD5723b10747DCFA05e6268A
