@@ -17,13 +17,13 @@ This project demonstrates the implementation of an ERC20 token using Solidity, a
 
 ## Screenshots
 
-[Insert screenshot of Hardhat compilation output]
 
-[Insert screenshot of test suite execution]
+### Test Suite Execution
+![Test Suite Execution](./screenshots/test-suite-execution.png)
 
-[Insert screenshot of Sepolia testnet deployment]
 
-[Insert screenshot of token interaction on Sepolia]
+### Token Interaction on Sepolia
+![Token Interaction](./screenshots/token-interaction.png)
 
 ## Prerequisites
 
